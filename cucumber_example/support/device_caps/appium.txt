@@ -1,0 +1,5 @@
+[caps]
+platformName = "ios"
+platformVersion = "7.1"
+app = "../UICatalog.app"
+deviceName = "iPhone Simulator"

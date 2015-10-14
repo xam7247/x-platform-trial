@@ -1,0 +1,11 @@
+default:
+  -r step_definitions
+  -r setup_&_support
+  -r objects
+  -r overrides
+  -r helpers
+
+automated:
+  -p default
+  -t @automated
+  -t ~@bvt
